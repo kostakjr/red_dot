@@ -15,7 +15,7 @@ public class LoadingScore : MonoBehaviour
 
     private void Start()
     {
-        /*
+        
         //reads the high score form the highscore.data file
         StreamReader reader = new StreamReader(filename);
         line = reader.ReadLine();
@@ -26,9 +26,9 @@ public class LoadingScore : MonoBehaviour
             line = reader.ReadLine();
         }
         reader.Close();
-        */
+        
 
-        scoreLoad = PlayerPrefs.GetString("HighScore");
+        //scoreLoad = PlayerPrefs.GetString("HighScore");
         highScoreDisplay.GetComponent<UnityEngine.UI.Text>().text = "" + scoreLoad;
 
         compareScore = int.Parse(scoreLoad);

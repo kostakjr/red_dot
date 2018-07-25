@@ -22,14 +22,14 @@ public class SavingScore : MonoBehaviour
         scoreAmount = ScoringSystem.score;
         if (scoreAmount >= highScore)
         {
-            PlayerPrefs.SetInt("HighScore", scoreAmount);
-            /*
+            //PlayerPrefs.SetInt("HighScore", scoreAmount);
+            
             //create a file with the designated file name
             var ourFile = File.CreateText(filename);
             //write high score to file and close
             ourFile.WriteLine("" + scoreAmount);
             ourFile.Close();
-            */
+            
             
         }
 
