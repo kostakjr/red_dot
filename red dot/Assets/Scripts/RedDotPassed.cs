@@ -48,7 +48,7 @@ public class RedDotPassed : MonoBehaviour {
         }
         else if (collision.gameObject.tag == "blueRL")
         {
-            collision.gameObject.transform.position = new Vector2(-5, 0);
+            collision.gameObject.transform.position = new Vector2(-7, 0);
         }
         else if (collision.gameObject.tag == "yellowdot")
         {
@@ -56,7 +56,7 @@ public class RedDotPassed : MonoBehaviour {
         }
         else if (collision.gameObject.tag == "yellowRL")
         {
-            collision.gameObject.transform.position = new Vector2(-7, 0);
+            collision.gameObject.transform.position = new Vector2(-9, 0);
         }
         else if (collision.gameObject.tag == "blackdot")
         {
@@ -64,7 +64,7 @@ public class RedDotPassed : MonoBehaviour {
         }
         else if (collision.gameObject.tag == "blackRL")
         {
-            collision.gameObject.transform.position = new Vector2(-8, 0);
+            collision.gameObject.transform.position = new Vector2(-10, 0);
         }
 
     }

@@ -19,13 +19,13 @@ public class RedDotTouch : MonoBehaviour {
         //make sure the correct dot is being moved to the appropriate position
         if (this.tag == "reddot")
         {
-            //moves dot back to the top: 0, 8
+            //moves dot back to the top: 0, 7
             this.transform.position = new Vector2(0, 7);
         }
         else
         {
             //moves RL dot to -8, 0
-            this.transform.position = new Vector2(-6, 0);
+            this.transform.position = new Vector2(-8, 0);
         }
 
         //uses scoring system to increment the score
