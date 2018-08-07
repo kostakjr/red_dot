@@ -24,8 +24,8 @@ public class RedDotTouch : MonoBehaviour {
         }
         else
         {
-            //moves RL dot to -8, 0
-            this.transform.position = new Vector2(-8, 0);
+            //moves RL dot to -9, 0
+            this.transform.position = new Vector2(-9, 0);
         }
 
         //uses scoring system to increment the score

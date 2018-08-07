@@ -5,9 +5,9 @@ using UnityEngine;
 public class RLPipeMotion : MonoBehaviour {
 
     //set destination of the right pipe
-    Vector2 destinationR = new Vector2(6, 0);
+    Vector2 destinationR = new Vector2(7, 0);
     //set destination of the left pipe
-    Vector2 destinationL = new Vector2(-6, 0);
+    Vector2 destinationL = new Vector2(-7, 0);
 
     /*
      * once the score reaches 86 the side pipes will be moved into place
