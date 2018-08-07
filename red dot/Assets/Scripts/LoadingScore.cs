@@ -13,6 +13,7 @@ public class LoadingScore : MonoBehaviour
     public GameObject highScoreDisplay;
     public static int compareScore;
 
+    //loads the highscore from the filename and displays it
     private void Start()
     {
         

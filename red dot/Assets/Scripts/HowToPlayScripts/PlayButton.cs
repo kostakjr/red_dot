@@ -7,6 +7,7 @@ public class PlayButton : MonoBehaviour {
 
     public AudioSource play;
 
+    //when object is clicked the playing area will be loaded and a noise will play
     private void OnMouseDown()
     {
         SceneManager.LoadScene(1);

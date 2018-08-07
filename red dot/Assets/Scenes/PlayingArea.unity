@@ -1039,7 +1039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: tap the screen to play again
+  m_Text: click the screen to play again
 --- !u!222 &486892621
 CanvasRenderer:
   m_ObjectHideFlags: 0

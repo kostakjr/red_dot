@@ -7,6 +7,7 @@ public class DotMotionYllw : MonoBehaviour {
     //set destination of the dot motion to the bottom of the screen
     Vector2 bottom = new Vector2(0, -10);
 
+    //casues the yellow dot to fall at the appropriate times (based on score)
     void Update()
     {
         //when the score is 31-50, 76-85, 111-130 or 181+ move the yellow dot at speed 3

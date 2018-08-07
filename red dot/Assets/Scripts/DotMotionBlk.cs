@@ -7,6 +7,7 @@ public class DotMotionBlk : MonoBehaviour {
     //set destination of the dot motion to the bottom of the screen
     Vector2 bottom = new Vector2(0, -10);
 
+    //casues the black dot to fall at the appropriate times (based on score)
     void Update()
     {
         //56-85, 121-130, 200+ move black dot at speed 2

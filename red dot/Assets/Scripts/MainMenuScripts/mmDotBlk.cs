@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mmDotBlk : MonoBehaviour {
 
+    //casues the black dot to fall towards the lower boundary
     void Update()
     {
         //set destination of the dot motion to the bottom of the screen

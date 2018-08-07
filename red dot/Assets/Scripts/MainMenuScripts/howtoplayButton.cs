@@ -7,6 +7,7 @@ public class howtoplayButton : MonoBehaviour {
 
     public AudioSource menuSwitch;
 
+    //when object is clicked the how to play menu will be loaded and a noise will play
     private void OnMouseDown()
     {
         menuSwitch.Play();

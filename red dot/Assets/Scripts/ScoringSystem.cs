@@ -7,9 +7,9 @@ public class ScoringSystem : MonoBehaviour {
     public static int score;
     public GameObject scoreDisplay;
 
+    //displays score
     void Update()
     {
-        //displays score
         scoreDisplay.GetComponent<UnityEngine.UI.Text>().text = "" + score;
     }
 }

@@ -7,6 +7,7 @@ public class RestartGame : MonoBehaviour {
 
     public AudioSource restart;
 
+    //recycles the playing area scene
     private void OnMouseDown()
     {
         restart.Play();
